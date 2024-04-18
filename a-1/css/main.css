@@ -17,3 +17,31 @@ body {
     font-size: 14px;
     color: #222;
 }
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* jc:sb 좌우정렬 */
+    align-items: center;
+    background-color: darkgoldenrod;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li a {
+    background-color: red;
+    padding: 30px;
+}
